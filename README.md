@@ -36,10 +36,12 @@ instantaneous voltage, current, and power variations, making them unsuitable for
 automated billing and smart energy management. 
 The objective of this project is to design and simulate a Smart Energy Meter using 
 Verilog HDL that can: 
-⚫ Generate simulated voltage and current waveforms, 
+```
+⚫ Generate simulated voltage and current waveforms,
 ⚫ Compute instantaneous power using digital arithmetic logic, 
 ⚫ Accumulate total energy consumption over time, and 
 ⚫ Display power and current values using a seven-segment display interface.
+```
 
 **Block Diagram**
 
