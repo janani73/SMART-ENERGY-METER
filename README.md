@@ -1,6 +1,6 @@
 # SMART-ENERGY-METER
 
-**Abstract**
+# Abstract
 
 This project presents the design and simulation of a Smart Energy Meter using Verilog 
 HDL. The system simulates voltage and current waveforms, computes instantaneous 
@@ -12,7 +12,7 @@ operation of the smart meter, demonstrating real-time measurement and display of
 electrical quantities. This project showcases modular digital design, arithmetic modeling, 
 and memory-based energy calculation in a real-world application context.
 
-**Introduction** 
+# Introduction 
 
 Smart meters have become an essential part of modern electrical systems, enabling 
 accurate monitoring of voltage, current, and energy consumption. They help consumers 
@@ -27,7 +27,7 @@ arithmetic operations, memory logic, modular hardware design, and simulation-bas
 verification using Vivado. The project reflects real-world engineering practice and the 
 importance of efficient digital system design.
 
-**Problem Statement**
+# Problem Statement
 
 The increasing demand for accurate and efficient energy monitoring in modern power 
 systems requires the use of intelligent metering devices that can measure electrical 
@@ -35,19 +35,19 @@ parameters in real time. Traditional energy meters are limited in their ability 
 instantaneous voltage, current, and power variations, making them unsuitable for 
 automated billing and smart energy management. 
 The objective of this project is to design and simulate a Smart Energy Meter using 
+
 Verilog HDL that can: 
-```
+
 ⚫ Generate simulated voltage and current waveforms,
 ⚫ Compute instantaneous power using digital arithmetic logic, 
 ⚫ Accumulate total energy consumption over time, and 
 ⚫ Display power and current values using a seven-segment display interface.
-```
 
-**Block Diagram**
+# Block Diagram
 
 <img width="647" height="298" alt="image" src="https://github.com/user-attachments/assets/9a1fa0e3-7687-4e02-9d15-743b0f5e05a5" />
 
-**Verilog Code** 
+# Verilog Code 
 ```
 module input_module( 
 input clk, output reg [15:0] 
@@ -182,7 +182,7 @@ power_out  = P;
 endmodule
 ```
 
-**TESTBENCH** 
+# TESTBENCH
  ```
 `timescale 1ns/1ps module 
 smart_meter_tb; reg clk; wire [6:0] 
@@ -213,11 +213,11 @@ end
 endmodule
 ```
 
-**Simulation Result**
+# Simulation Result
 
 <img width="1920" height="1080" alt="Screenshot 2025-11-18 164656" src="https://github.com/user-attachments/assets/9c533528-2841-4938-80fd-fbfaef919558" />
 
-**Conclusion**
+# Conclusion
 
 The Smart Energy Meter was successfully designed and simulated using Verilog HDL. All 
 modules function as intended, demonstrating real-time voltage and current generation, 
